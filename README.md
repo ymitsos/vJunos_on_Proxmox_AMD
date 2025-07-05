@@ -7,7 +7,7 @@ Fixing vJunos Boot Issues on Proxmox with AMD Processors
 
 I wanted to run **vJunos** on a QEMU-based infrastructure to set up a networking lab. While researching, I came across [vJunos\_on\_Proxmox](https://github.com/Ihemail/vJunos_on_Proxmox), which inspired me to host vJunos in my home lab.
 
-However, the image wasn’t booting because it couldn't detect the required CPU virtualization flag. It turned out that the Juniper-provided BASH script, which checks for CPU capabilities, only supports Intel processors and doesn't properly detect AMD CPUs.
+However, the image wasn’t booting because it couldn't detect the required CPU virtualization flag. It turned out that the Juniper-provided BASH script, located inside the image, which checks for CPU capabilities, only supports Intel processors and doesn't properly detect AMD CPUs.
 
 Here's what I did to work around this issue.
 
