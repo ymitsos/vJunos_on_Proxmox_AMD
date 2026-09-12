@@ -3,6 +3,9 @@
 # vJunos_on_Proxmox_AMD
 Fixing vJunos Boot Issues on Proxmox with AMD Processors
 
+## August 06 2026 UPDATE
+Check [this](https://www.linkedin.com/pulse/defying-impossible-getting-nested-vjunos-switch-running-piet-braat-i9d4e/) URL as well; the author provides another improvment to imporve boot speed.
+
 ### Summary
 
 I wanted to run **vJunos** on a QEMU-based infrastructure to set up a networking lab. While researching, I came across [vJunos\_on\_Proxmox](https://github.com/Ihemail/vJunos_on_Proxmox), which inspired me to host vJunos in my home lab.
